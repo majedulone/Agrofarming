@@ -1,3 +1,23 @@
+<?php
+
+$conn=mysqli_connect("localhost","root","","demo");
+if(isset($_POST['uname'])){
+  $username=$_POST['uname'];
+  $password=$_POST['pass'];
+  $sql="select*from login where uname='".$username."'AND pass='".$password."'
+  limit 1";
+$result=mysqli_query($conn,$sql);
+if(mysqli_num_rows($result)==1){
+  echo "You Have Successfully Logged in";
+  exit();
+}
+else{
+  echo "Invalid Login";
+  exit();
+}
+
+}
+?>
 <!DOCTYPE html>
 <html lang="">
 <head>
@@ -5,7 +25,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link="css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body id="top" >
 <!-- ################################################################################################ -->
@@ -64,8 +84,8 @@
   <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <form action="/action_page.php">
-    <div class="container">
+    <form action="/action_page.php" >
+    <div class="container" style="padding: 25px">
       <h1>Sign In</h1>
       <p>Please fill up the information.</p>
       <hr>
