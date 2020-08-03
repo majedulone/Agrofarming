@@ -1,0 +1,19 @@
+
+.input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+/* Add padding to containers */
+.container {
+  padding-top: 10px;
+  padding-left: : 35px;
+  background-color: white;
+}
+.a{
+  color: blue;
+}
