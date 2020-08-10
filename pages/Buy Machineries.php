@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-<title>Agrofarming || Exhibition Page</title>
+<title>Agrofarming || Buy Machineries</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -12,7 +12,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('../images/form_backround2.jpg'); height: 250px">
+<div class="bgded overlay" style="background-image:url('../images/form_backround4.jpg'); height: 250px">
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
@@ -28,9 +28,9 @@
             <ul>
               <li><a class="drop" href="#">Form</a>
                 <ul>
-                  <li><a href="../pages/Allotment.html">For Allotment</a></li>
-                  <li><a href="../pages/Exibition.html">For Exhibitiob</a></li>
-                  <li><a href="../pages/Help.html">Help</a></li>
+                  <li><a href="../pages/Allotment.php">For Allotment</a></li>
+                  <li><a href="../pages/Exibition.php">For Exhibitiob</a></li>
+                  <li><a href="../pages/Help.php">Help</a></li>
                 </ul>
               </li>
               <li><a href="#">Training</a></li>
@@ -44,7 +44,7 @@
             </ul>
           </li>
 
-          <li><a href="../pages/Complain.html">Complaints/suggestions</a></li>
+          <li><a href="../pages/Complain.php">Complaints/suggestions</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -53,14 +53,14 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <h2 style=" text-align: center; padding:25px;">Exhibition Form</h2>
+  <h2 style=" text-align: center; padding:25px;">Application For Buy Machineries</h2>
   <!-- ################################################################################################ -->
 </div>
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3" style="background:#062407;">
+<div class="wrapper row3" style="background:#2f4515;">
   <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
@@ -155,12 +155,30 @@
   </td>
   </tr>
   <br>
-<tr>
-<td>
-    <label for="c_name">ফসলের নাম :</label>
+  <tr>
+    <td>
+    <label for="m_name">মেশিনের নাম : </label>
     </td>
     <td>
-    <input type="text" class="form-control" size="35"  name="c_name" required>
+    <input type="text" class="form-control" size="35" name="m_name">
+  </td>
+  </tr>
+  <br>
+  <tr>
+    <td>
+    <label for="machine-code">মেশিনের কোড নং : </label>
+    </td>
+    <td>
+    <input type="text" class="form-control" size="35" name="machine-code">
+  </td>
+  </tr>
+  <br>
+  <tr>
+    <td>
+    <label for="advance">অগ্রীম অর্থের পরিমান : </label>
+    </td>
+    <td>
+    <input type="text" class="form-control" size="35" name="advance">
   </td>
   </tr>
   <br>

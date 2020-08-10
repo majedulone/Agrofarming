@@ -1,18 +1,18 @@
 <!DOCTYPE html>
+
 <html lang="">
 <head>
-<title>Agrofarming || Help Page</title>
+<title>Agrofarming || Photo Gallery</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
-<body id="top" >
+<body id="top">
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('../images/form_backround3.jpg'); height: 250px">
+<div class="bgded overlay" style="background-image:url('../images/PBackground.jpg');">
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
@@ -28,9 +28,9 @@
             <ul>
               <li><a class="drop" href="#">Form</a>
                 <ul>
-                  <li><a href="../pages/Allotment.html">For Allotment</a></li>
-                  <li><a href="../pages/Exibition.html">For Exhibitiob</a></li>
-                  <li><a href="../pages/Help.html">Help</a></li>
+                  <li><a href="../pages/Allotment.php">For Allotment</a></li>
+                  <li><a href="../pages/Exibition.php">For Exhibitiob</a></li>
+                  <li><a href="../pages/Help.php">Help</a></li>
                 </ul>
               </li>
               <li><a href="#">Training</a></li>
@@ -44,127 +44,64 @@
             </ul>
           </li>
 
-          <li><a href="../pages/Complain.html">Complaints/suggestions</a></li>
+          <li><a href="../pages/Complain.php">Complaints/suggestions</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
     </header>
   </div>
   <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <h2 style=" text-align: center; padding:25px;">Help Form</h2>
-  <!-- ################################################################################################ -->
 </div>
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3" style="background:#3e4001;">
+<div class="wrapper row3">
   <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <form style="margin-top: -150px;">
-      <table style="padding:20px; table-layout: center;">
-        <tr>
-          <td>
-            <label for="name">নাম : </label>
-            </td>
-            <td>
-            <input type="text" class="form-control" size="35" name="name" required>
-          </td>
-          <br>
-          </tr>
-          <tr>
-          <td>
-        <label for="f_name">পিতার নাম :</label>
-        </td>
-        <br>
-        <td>
-        <input type="text" class="form-control" size="35"  name="f_name" required>
-        </td>
-        </tr>
-        <br>
-          <tr>
-          <td>
-        <label for="address">ঠিকানা :</label>
-        </td>
-        <br>
-        <td>
-        <input type="text" class="form-control" size="35"  name="address" required>
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="mobile">মোবাইল নং :</label>
-        </td>
-        <td>
-        <input style type="text" class="form-control" size="35" textarea="20" name="mobile" required>
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="nid">জাতীয় পরিচয়পত্র নং :</label>
-        </td>
-        <td>
-        <input style type="text" class="form-control" size="35" name="nid" required>
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="email">ই-মেইল :</label>
-        </td>
-        <td>
-        <input style type="email" class="form-control" size="35" name="email" required>
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="gender">লিঙ্গ :</label>
-        </td>
-        <td>
-          <div class="form-group">
-            <select class="form-control" name="gender">
-              <option>বাছাই করুন</option>
-              <option>পুরুষ</option>
-              <option>মহিলা</option>
-              <option>অন্যান্য</option>
-            </select>
-        </div>
-        </td>
-        </tr>
-        <tr>
-        <td>
-        <label for="d_name">ইউনিয়ান :</label>
-        </td>
-        <td>
-        <input type="text" class="form-control" size="35" name="district">
-  </td>
-  </tr>
-  <br>
-  <tr>
-    <td>
-    <label for="problem">আপনার সমস্যা : </label>
-    </td>
-    <td>
-    <textarea name="subject" placeholder="আপনার সমস্যাগুলো সম্পর্কে লিখুন" rows="8" cols="50" name="problem" required></textarea>
-  </td>
-  </tr>
-  <br>
-  </table>
-  <br>
-  <div class="form-group form-check">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox"> Remember me
-    </label>
-  </div>
-  <br>
-  <button type="submit" class="btn btn-primary" style="border-radius: 15px;">Submit</button>
-</form>
+    <div class="content">
+      <!-- ################################################################################################ -->
+      <div id="gallery">
+        <figure>
+          <header class="heading">Gallery Title Goes Here</header>
+          <ul class="nospace clear">
+            <li class="one_quarter first"><a href="#"><img src="../Photo Gallery/rice.webp" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery//rice1.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery/Tomato.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery/Tomato1.jpg" alt=""></a></li>
+            <li class="one_quarter first"><a href="#"><img src="../Photo Gallery/আলু.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery/আলু১.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery/গম.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery/গম১.jpg" alt=""></a></li>
+            <li class="one_quarter first"><a href="#"><img src="../Photo Gallery/পাট.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery/পাট১.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery/পাট.jpg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img src="../Photo Gallery/পাট.jpg" alt=""></a></li>
+          </ul>
+          <figcaption>Gallery Description Goes Here</figcaption>
+        </figure>
+      </div>
+      <!-- ################################################################################################ -->
+      <!-- ################################################################################################ -->
+      <nav class="pagination">
+        <ul>
+          <li><a href="#">&laquo; Previous</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><strong>&hellip;</strong></li>
+          <li><a href="#">6</a></li>
+          <li class="current"><strong>7</strong></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li><strong>&hellip;</strong></li>
+          <li><a href="#">14</a></li>
+          <li><a href="#">15</a></li>
+          <li><a href="#">Next &raquo;</a></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
@@ -173,26 +110,38 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4 bgded overlay" style="background: #12081c">
+<div class="wrapper row4 bgded overlay" style="background-image:url('../images/demo/backgrounds/02.png');">
   <footer id="footer" class="hoc clear">
     <!-- ################################################################################################ -->
     <div class="one_third first">
-      <h6 class="heading">AGROFARMING</h6>
-      <p>A plurality of Bangladeshis earn their living from agriculture. Although rice and jute are the primary crops, wheat is assuming greater importance. Tea is grown in the northeast. Because of Bangladesh's fertile soil and normally ample water supply, rice can be grown and harvested three times a year in many areas.</p>
-      <p class="btmspace-50">Due to a number of factors, Bangladesh's labour-intensive agriculture has achieved steady increases in food grain production despite the often unfavourable weather conditions.</p>
-
+      <h6 class="heading">Basend</h6>
+      <p>Nullam quis ligula elementum lectus varius aliquet vivamus odio donec metus libero semper quis suscipit ut aliquam a metus integer.</p>
+      <p class="btmspace-50">Pretium curabitur magna odio laoreet eu accumsan vitae gravida quis odio.</p>
+      <nav>
+        <ul class="nospace">
+          <li><a href="../index.html"><i class="fa fa-lg fa-home"></i></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Online Shop</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </nav>
     </div>
     <div class="one_third">
-      <h6 class="heading">Contacts</h6>
+      <h6 class="heading">Aliquam non fermentum</h6>
       <ul class="nospace btmspace-30 linklist contact">
         <li><i class="fa fa-map-marker"></i>
           <address>
-          Bus Stand &amp; Kaunia, Rangpur, Postcode/Zip: 5440
+          Street Name &amp; Number, Town, Postcode/Zip
           </address>
         </li>
         <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
         <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> uaokaunia@yahoo.com</li>
+        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
       </ul>
       <ul class="faico clear">
         <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -204,9 +153,11 @@
       </ul>
     </div>
     <div class="one_third">
-      <h6 class="heading">Government of the People's Republic of Bangladesh</h6>
-      <article><a href="#"><img class="btmspace-15" src="F:\Web\Template\Agriculture\basend\images\জাতীয় মনোগ্রাম.PNG" style="height:200px; weight:200px;padding:15px;" alt=""></a>
-
+      <h6 class="heading">Sapien lobortis nec</h6>
+      <article><a href="#"><img class="btmspace-15" src="../images/demo/320x140.png" alt=""></a>
+        <h6 class="nospace font-x1"><a href="#">Velit pellentesque</a></h6>
+        <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+        <p class="nospace">Eget nisl mauris placerat mauris a semper posuere sem arcu cursus felis non cursus enim odio in maecenas ut justo [&hellip;]</p>
       </article>
     </div>
     <!-- ################################################################################################ -->

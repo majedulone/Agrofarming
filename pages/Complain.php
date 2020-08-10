@@ -28,9 +28,9 @@
             <ul>
               <li><a class="drop" href="#">Form</a>
                 <ul>
-                  <li><a href="../pages/Allotment.html">For Allotment</a></li>
-                  <li><a href="../pages/Exibition.html">For Exhibitiob</a></li>
-                  <li><a href="../pages/Help.html">Help</a></li>
+                  <li><a href="../pages/Allotment.php">For Allotment</a></li>
+                  <li><a href="../pages/Exibition.php">For Exhibitiob</a></li>
+                  <li><a href="../pages/Help.php">Help</a></li>
                 </ul>
               </li>
               <li><a href="#">Training</a></li>
@@ -44,7 +44,7 @@
             </ul>
           </li>
 
-          <li><a href="Complain.html">Complaints/Suggestions</a></li>
+          <li><a href="../pages/Complain.php">Complaints/suggestions</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->

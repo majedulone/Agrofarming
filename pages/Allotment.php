@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-<title>Agrofarming || Buy Machineries</title>
+<title>Agrofarming || Allotment Page</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -12,7 +12,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('../images/form_backround4.jpg'); height: 250px">
+<div class="bgded overlay" style="background-image:url('../images/PBackground.jpg');">
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
@@ -28,9 +28,9 @@
             <ul>
               <li><a class="drop" href="#">Form</a>
                 <ul>
-                  <li><a href="../pages/Allotment.html">For Allotment</a></li>
-                  <li><a href="../pages/Exibition.html">For Exhibitiob</a></li>
-                  <li><a href="../pages/Help.html">Help</a></li>
+                  <li><a href="../pages/Allotment.php">For Allotment</a></li>
+                  <li><a href="../pages/Exibition.php">For Exhibitiob</a></li>
+                  <li><a href="../pages/Help.php">Help</a></li>
                 </ul>
               </li>
               <li><a href="#">Training</a></li>
@@ -44,7 +44,7 @@
             </ul>
           </li>
 
-          <li><a href="../pages/Complain.html">Complaints/suggestions</a></li>
+          <li><a href="../pages/Complain.php">Complaints/suggestions</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -53,144 +53,137 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <h2 style=" text-align: center; padding:25px;">Application For Buy Machineries</h2>
+  <h2 style=" text-align: center; padding:25px;">Allotment Form</h2>
   <!-- ################################################################################################ -->
 </div>
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3" style="background:#2f4515;">
+<div class="wrapper row3" style="background-image:url('../images/form_backround1.jpg');">
   <main class="hoc container clear">
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <form style="margin-top: -150px;">
-      <table style="padding:20px; table-layout: center;">
-        <tr>
-          <td>
-            <label for="name">নাম : </label>
-            </td>
-            <td>
-            <input type="text" class="form-control" size="35" name="name" required>
-          </td>
-          <br>
-          </tr>
-          <tr>
-          <td>
-        <label for="f_name">পিতার নাম :</label>
-        </td>
-        <br>
-        <td>
-        <input type="text" class="form-control" size="35"  name="f_name" required>
-        </td>
-        </tr>
-        <br>
-          <tr>
-          <td>
-        <label for="address">ঠিকানা :</label>
-        </td>
-        <br>
-        <td>
-        <input type="text" class="form-control" size="35"  name="address" required>
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="mobile">মোবাইল নং :</label>
-        </td>
-        <td>
-        <input style type="text" class="form-control" size="35" textarea="20" name="mobile" required>
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="nid">জাতীয় পরিচয়পত্র নং :</label>
-        </td>
-        <td>
-        <input style type="text" class="form-control" size="35" name="nid" required>
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="email">ই-মেইল :</label>
-        </td>
-        <td>
-        <input style type="email" class="form-control" size="35" name="email" required>
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="gender">লিঙ্গ :</label>
-        </td>
-        <td>
-          <div class="form-group">
-            <select class="form-control" name="gender">
-              <option>বাছাই করুন</option>
-              <option>পুরুষ</option>
-              <option>মহিলা</option>
-              <option>অন্যান্য</option>
-            </select>
-        </div>
-        </td>
-        </tr>
-        <tr>
-        <td>
-        <label for="d_name">ইউনিয়ান :</label>
-        </td>
-        <td>
-        <input type="text" class="form-control" size="35" name="district">
-        </td>
-        </tr>
-        <br>
-        <tr>
-        <td>
-        <label for="c_amount">জমির পরিমান : </label>
-        </td>
-        <td>
-        <input type="text" class="form-control" size="35" name="c_amount">
+<form style="margin-top: -150px;" method="post" action="Allotment.php">
+  <table style="padding:20px; table-layout: center;">
+    <tr>
+      <td>
+    <label for="name">নাম : </label>
+    </td>
+    <td>
+    <input type="text" class="form-control" size="35" name="name" required>
+  </td>
+  <br>
+  </tr>
+  <tr>
+  <td>
+<label for="f_name">পিতার নাম :</label>
+</td>
+<br>
+<td>
+<input type="text" class="form-control" size="35"  name="f_name" required>
+</td>
+</tr>
+<br>
+  <tr>
+  <td>
+<label for="address">ঠিকানা :</label>
+</td>
+<br>
+<td>
+<input type="text" class="form-control" size="35"  name="address" required>
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="mobile">মোবাইল নং :</label>
+</td>
+<td>
+<input style type="text" class="form-control" size="35" textarea="20" name="mobile" required>
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="nid">জাতীয় পরিচয়পত্র নং :</label>
+</td>
+<td>
+<input style type="text" class="form-control" size="35" name="nid" required>
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="email">ই-মেইল :</label>
+</td>
+<td>
+<input type="email" class="form-control" size="35" name="email" required>
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="gender">লিঙ্গ :</label>
+</td>
+<td>
+  <div class="form-group">
+    <select class="form-control" name="gender">
+      <option>বাছাই করুন</option>
+      <option>পুরুষ</option>
+      <option>মহিলা</option>
+      <option>অন্যান্য</option>
+    </select>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<label for="d_name">ইউনিয়ান :</label>
+</td>
+<td>
+<input type="text" class="form-control" size="35" name="district">
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="c_amount">জমির পরিমান : </label>
+</td>
+<td>
+<input type="text" class="form-control" size="35" name="c_amount">
+</td>
+</tr>
+<br>
+<tr>
+<td>
+    <label for="c_name">ফসলের নাম :</label>
+    </td>
+    <td>
+    <input type="text" class="form-control" size="35"  name="c_name" required>
   </td>
   </tr>
   <br>
   <tr>
     <td>
-    <label for="m_name">মেশিনের নাম : </label>
+    <label for="need">প্রয়োজনীয় দ্রব্য : </label>
     </td>
     <td>
-    <input type="text" class="form-control" size="35" name="m_name">
+    <input type="text" class="form-control" size="35" placeholder="সার / বীজ / কীটনাশক"  name="need" required>
   </td>
   </tr>
   <br>
   <tr>
-    <td>
-    <label for="machine-code">মেশিনের কোড নং : </label>
+  <td>
+
+      </td>
+      <td>
+        <br>
+
     </td>
-    <td>
-    <input type="text" class="form-control" size="35" name="machine-code">
-  </td>
-  </tr>
-  <br>
-  <tr>
-    <td>
-    <label for="advance">অগ্রীম অর্থের পরিমান : </label>
-    </td>
-    <td>
-    <input type="text" class="form-control" size="35" name="advance">
-  </td>
-  </tr>
-  <br>
+    </tr>
+
   </table>
   <br>
-  <div class="form-group form-check">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox"> Remember me
-    </label>
-  </div>
-  <br>
-  <button type="submit" class="btn btn-primary" style="border-radius: 15px;">Submit</button>
+<input  type="submit" class="btn btn-primary" name="submit" style="border-radius: 15px; align="right"" value="submit">
 </form>
     <!-- ################################################################################################ -->
     <!-- / main body -->
@@ -260,3 +253,30 @@
 <script src="../layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 </html>
+
+<?php
+mysql_connect("localhost","root","") or die ("not connected");
+mysql_select_db("form") or die ("no db found");
+if(isset($_POST['submit']))
+{
+  $name=$_POST['name'];
+  $f_name=$_POST['f_name'];
+  $address=$_POST['address'];
+  $mobile_no=$_POST['mobile'];
+  $nid=$_POST['nid'];
+  $email=$_POST['email'];
+  $gender=$_POST['gender'];
+  $district=$_POST['district'];
+  $c_amount=$_POST['c_amount'];
+  $c_name=$_POST['c_name'];
+  $need=$_POST['need'];
+  $query = "insert into allotment (name,father's_name,address,mobile_no,nid,email,gender,district,camount,cname,need) values ('$name','$f_name','$address','$mobile_no','$nid','$email','$gender','$district','$c_amount','$c_name','$need')";
+  if(mysql_query($query))
+  {
+    echo "<h3>data Successfully submitted.....</h3>";
+  }
+  else {
+    echo "Failed to data submission.....";
+  }
+}
+?>

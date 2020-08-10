@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-<title>Agrofarming || Allotment Page</title>
+<title>Agrofarming || Exhibition Page</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -12,7 +12,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('../images/PBackground.jpg');">
+<div class="bgded overlay" style="background-image:url('../images/form_backround2.jpg'); height: 250px">
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
@@ -28,9 +28,9 @@
             <ul>
               <li><a class="drop" href="#">Form</a>
                 <ul>
-                  <li><a href="../pages/Allotment.html">For Allotment</a></li>
-                  <li><a href="../pages/Exibition.html">For Exhibitiob</a></li>
-                  <li><a href="../pages/Help.html">Help</a></li>
+                  <li><a href="../pages/Allotment.php">For Allotment</a></li>
+                  <li><a href="../pages/Exibition.php">For Exhibitiob</a></li>
+                  <li><a href="../pages/Help.php">Help</a></li>
                 </ul>
               </li>
               <li><a href="#">Training</a></li>
@@ -44,7 +44,7 @@
             </ul>
           </li>
 
-          <li><a href="../pages/Complain.html">Complaints/suggestions</a></li>
+          <li><a href="../pages/Complain.php">Complaints/suggestions</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -53,121 +53,114 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <h2 style=" text-align: center; padding:25px;">Allotment Form</h2>
+  <h2 style=" text-align: center; padding:25px;">Exhibition Form</h2>
   <!-- ################################################################################################ -->
 </div>
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3" style="background-image:url('../images/form_backround1.jpg');">
+<div class="wrapper row3" style="background:#062407;">
   <main class="hoc container clear">
-<form style="margin-top: -150px;">
-  <table style="padding:20px; table-layout: center;">
-    <tr>
-      <td>
-    <label for="name">নাম : </label>
-    </td>
-    <td>
-    <input type="text" class="form-control" size="35" name="name" required>
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <form style="margin-top: -150px;">
+      <table style="padding:20px; table-layout: center;">
+        <tr>
+          <td>
+            <label for="name">নাম : </label>
+            </td>
+            <td>
+            <input type="text" class="form-control" size="35" name="name" required>
+          </td>
+          <br>
+          </tr>
+          <tr>
+          <td>
+        <label for="f_name">পিতার নাম :</label>
+        </td>
+        <br>
+        <td>
+        <input type="text" class="form-control" size="35"  name="f_name" required>
+        </td>
+        </tr>
+        <br>
+          <tr>
+          <td>
+        <label for="address">ঠিকানা :</label>
+        </td>
+        <br>
+        <td>
+        <input type="text" class="form-control" size="35"  name="address" required>
+        </td>
+        </tr>
+        <br>
+        <tr>
+        <td>
+        <label for="mobile">মোবাইল নং :</label>
+        </td>
+        <td>
+        <input style type="text" class="form-control" size="35" textarea="20" name="mobile" required>
+        </td>
+        </tr>
+        <br>
+        <tr>
+        <td>
+        <label for="nid">জাতীয় পরিচয়পত্র নং :</label>
+        </td>
+        <td>
+        <input style type="text" class="form-control" size="35" name="nid" required>
+        </td>
+        </tr>
+        <br>
+        <tr>
+        <td>
+        <label for="email">ই-মেইল :</label>
+        </td>
+        <td>
+        <input style type="email" class="form-control" size="35" name="email" required>
+        </td>
+        </tr>
+        <br>
+        <tr>
+        <td>
+        <label for="gender">লিঙ্গ :</label>
+        </td>
+        <td>
+          <div class="form-group">
+            <select class="form-control" name="gender">
+              <option>বাছাই করুন</option>
+              <option>পুরুষ</option>
+              <option>মহিলা</option>
+              <option>অন্যান্য</option>
+            </select>
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <label for="d_name">ইউনিয়ান :</label>
+        </td>
+        <td>
+        <input type="text" class="form-control" size="35" name="district">
+        </td>
+        </tr>
+        <br>
+        <tr>
+        <td>
+        <label for="c_amount">জমির পরিমান : </label>
+        </td>
+        <td>
+        <input type="text" class="form-control" size="35" name="c_amount">
   </td>
-  <br>
   </tr>
-  <tr>
-  <td>
-<label for="f_name">পিতার নাম :</label>
-</td>
-<br>
-<td>
-<input type="text" class="form-control" size="35"  name="f_name" required>
-</td>
-</tr>
-<br>
-  <tr>
-  <td>
-<label for="address">ঠিকানা :</label>
-</td>
-<br>
-<td>
-<input type="text" class="form-control" size="35"  name="address" required>
-</td>
-</tr>
-<br>
-<tr>
-<td>
-<label for="mobile">মোবাইল নং :</label>
-</td>
-<td>
-<input style type="text" class="form-control" size="35" textarea="20" name="mobile" required>
-</td>
-</tr>
-<br>
-<tr>
-<td>
-<label for="nid">জাতীয় পরিচয়পত্র নং :</label>
-</td>
-<td>
-<input style type="text" class="form-control" size="35" name="nid" required>
-</td>
-</tr>
-<br>
-<tr>
-<td>
-<label for="email">ই-মেইল :</label>
-</td>
-<td>
-<input style type="email" class="form-control" size="35" name="email" required>
-</td>
-</tr>
-<br>
-<tr>
-<td>
-<label for="gender">লিঙ্গ :</label>
-</td>
-<td>
-  <div class="form-group">
-    <select class="form-control" name="gender">
-      <option>বাছাই করুন</option>
-      <option>পুরুষ</option>
-      <option>মহিলা</option>
-      <option>অন্যান্য</option>
-    </select>
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<label for="d_name">ইউনিয়ান :</label>
-</td>
-<td>
-<input type="text" class="form-control" size="35" name="district">
-</td>
-</tr>
-<br>
-<tr>
-<td>
-<label for="c_amount">জমির পরিমান : </label>
-</td>
-<td>
-<input type="text" class="form-control" size="35" name="c_amount">
-</td>
-</tr>
-<br>
+  <br>
 <tr>
 <td>
     <label for="c_name">ফসলের নাম :</label>
     </td>
     <td>
     <input type="text" class="form-control" size="35"  name="c_name" required>
-  </td>
-  </tr>
-  <br>
-  <tr>
-    <td>
-    <label for="need">প্রয়োজনীয় দ্রব্য : </label>
-    </td>
-    <td>
-    <input type="text" class="form-control" size="35" placeholder="সার / বীজ / কীটনাশক"  name="need" required>
   </td>
   </tr>
   <br>
@@ -186,9 +179,6 @@
     <div class="clear"></div>
   </main>
 </div>
-<?php
-echo "<h2>Your form is submitted</h2>";
-?>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
