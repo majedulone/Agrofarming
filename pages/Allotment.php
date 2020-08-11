@@ -23,7 +23,7 @@
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.php">Home</a></li>
           <li><a class="drop" href="#">Services</a>
             <ul>
               <li><a class="drop" href="#">Form</a>
@@ -62,7 +62,7 @@
 <!-- ################################################################################################ -->
 <div class="wrapper row3" style="background-image:url('../images/form_backround1.jpg');">
   <main class="hoc container clear">
-<form style="margin-top: -150px;" method="post" action="Allotment.php">
+<form style="margin-top: -150px;" method="post" action="includes/Allotment_data.php">
   <table style="padding:20px; table-layout: center;">
     <tr>
       <td>

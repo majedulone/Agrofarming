@@ -23,7 +23,7 @@
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.php">Home</a></li>
           <li><a class="drop" href="#">Services</a>
             <ul>
               <li><a class="drop" href="#">Form</a>
@@ -64,7 +64,7 @@
   <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <form style="margin-top: -150px;">
+    <form style="margin-top: -150px;"action="includes/Complain_data.php" method="post">
       <table style="padding:20px; table-layout: center;">
         <tr>
           <td>
@@ -120,7 +120,7 @@
     <label for="suggestions">আপনার মতামত : </label>
     </td>
     <td>
-    <textarea name="subject" placeholder="আপনার সমস্যাগুলো সম্পর্কে লিখুন" rows="8" cols="50" name="suggestions" required></textarea>
+    <textarea type="text" placeholder="আপনার সমস্যাগুলো সম্পর্কে লিখুন" rows="8" cols="50" name="suggestion" required></textarea>
   </td>
   </tr>
   <br>

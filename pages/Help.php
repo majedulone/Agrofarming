@@ -23,7 +23,7 @@
         </div>
         <nav id="mainav" class="fl_right">
           <ul class="clear">
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li><a class="drop" href="#">Services</a>
               <ul>
                 <li><a class="drop" href="#">Form</a>
@@ -64,7 +64,7 @@
     <main class="hoc container clear">
       <!-- main body -->
       <!-- ################################################################################################ -->
-      <form style="margin-top: -150px;" action="Help_data.php" method="post">
+      <form style="margin-top: -150px;" action="includes/Help_data.php" method="post">
         <table style="padding:20px; table-layout: center;">
           <tr>
             <td>
@@ -151,7 +151,7 @@
       <label for="problem">আপনার সমস্যা : </label>
       </td>
       <td>
-      <input type="text" placeholder="আপনার সমস্যাগুলো সম্পর্কে লিখুন" size="35" name="problem" required>
+      <textarea type="text" placeholder="আপনার সমস্যাগুলো সম্পর্কে লিখুন" rows="6" cols="40" name="problem" required></textarea>
     </td>
     </tr>
     <br>

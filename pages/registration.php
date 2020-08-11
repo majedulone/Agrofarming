@@ -23,7 +23,7 @@
           </div>
           <nav id="mainav" class="fl_right">
             <ul class="clear">
-              <li><a href="../index.html">Home</a></li>
+              <li><a href="../index.php">Home</a></li>
               <li><a class="drop" href="#">Services</a>
                 <ul>
                   <li><a class="drop" href="#">Form</a>

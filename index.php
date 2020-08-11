@@ -26,7 +26,7 @@
           <nav id="mainav" class="fl_right">
             <div class="navigation">
               <ul class="clear">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a class="drop" href="#">Pages</a>
                   <ul>
                     <li><a class="drop" href="#">Gallery</a>
