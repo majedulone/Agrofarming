@@ -64,7 +64,7 @@
   <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <form style="margin-top: -150px;">
+    <form style="margin-top: -150px;"action="includes/Exibition_data.php" method="post">
       <table style="padding:20px; table-layout: center;">
         <tr>
           <td>
@@ -172,7 +172,7 @@
     </label>
   </div>
   <br>
-  <button type="submit" class="btn btn-primary" style="border-radius: 15px;">Submit</button>
+  <button type="submit" style="border-radius: 15px;">Submit</button>
 </form>
     <!-- ################################################################################################ -->
     <!-- / main body -->

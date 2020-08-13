@@ -64,7 +64,7 @@
       <main class="hoc container clear">
         <!-- main body -->
         <!-- ################################################################################################ -->
-        <form action="Reg.php" method="post">
+        <form action="includes/Reg.php" method="post">
           <div class="container">
             <h1>Register</h1>
             <p>Please fill in this form to create an account.</p>

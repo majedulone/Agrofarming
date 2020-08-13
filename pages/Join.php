@@ -64,7 +64,7 @@
       <main class="hoc container clear">
         <!-- main body -->
         <!-- ################################################################################################ -->
-        <form action="/validation.php" method="post" >
+        <form action="includes/validation.php" method="post" >
           <div class="container" style="padding: 25px">
             <h1>Sign In</h1>
             <p>Please fill up the information.</p>

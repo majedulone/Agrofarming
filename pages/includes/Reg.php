@@ -1,6 +1,6 @@
 <?php
 session_start();
-header('location:Join.php');
+header('location:../Join.php');
 $conn=mysqli_connect("localhost","root","") or die (mysql_error());
 mysqli_select_db($conn,"registration");
 $name=$_POST['name'];
