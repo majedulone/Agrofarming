@@ -85,7 +85,7 @@
           </div>
           <p class="a">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
           <div class="container signin">
-            <p class="a">Already have an account? <a href="Join.html">Sign in</a>.</p>
+            <p class="a">Already have an account? <a href="Join.php">Sign in</a>.</p>
           </div>
         </form>
         <p class="a">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>

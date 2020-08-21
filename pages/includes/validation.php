@@ -9,12 +9,11 @@ $result = mysqli_query($conn,$s);
 $num = mysqli_num_rows($result);
 if($num == 1)
 {
-  
-  header('Location:../home.php');
+
+  header('Location:../../home.php');
 }
 else
 {
   echo "Wrong Employee ID or password....";
-  header('location:../Join.php');
 }
 ?>
