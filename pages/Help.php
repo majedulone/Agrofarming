@@ -60,7 +60,7 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div class="wrapper row3" style="background:#3e4001;">
+  <div class="wrapper row3" style="background-color: #04070d;">
     <main class="hoc container clear">
       <!-- main body -->
       <!-- ################################################################################################ -->
@@ -187,7 +187,7 @@
         <ul class="nospace btmspace-30 linklist contact">
           <li><i class="fa fa-map-marker"></i>
             <address>
-            Bus Stand &amp; Kaunia, Rangpur, Postcode/Zip: 5440
+              Bus Stand &amp; Kaunia, Rangpur, Postcode/Zip: 5440
             </address>
           </li>
           <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
@@ -205,7 +205,7 @@
       </div>
       <div class="one_third">
         <h6 class="heading">Government of the People's Republic of Bangladesh</h6>
-        <article><a href="#"><img class="btmspace-15" src="F:\Web\Template\Agriculture\basend\images\জাতীয় মনোগ্রাম.PNG" style="height:200px; weight:200px;padding:15px;" alt=""></a>
+        <article><a href="#"><img class="btmspace-15" src="../images/জাতীয় মনোগ্রাম.PNG" style="height:200px; weight:200px;padding:15px;" alt=""></a>
 
         </article>
       </div>

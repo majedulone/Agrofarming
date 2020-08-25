@@ -60,7 +60,7 @@
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
-    <div  style="background:#08122b;">
+    <div  style="background:#04070d;">
       <main class="hoc container clear">
         <!-- main body -->
         <!-- ################################################################################################ -->
@@ -123,7 +123,7 @@
         </div>
         <div class="one_third">
           <h6 class="heading">Government of the People's Republic of Bangladesh</h6>
-          <article><a href="#"><img class="btmspace-15" src="F:\Web\Template\Agriculture\basend\images\জাতীয় মনোগ্রাম.PNG" style="height:200px; weight:200px;padding:15px;" alt=""></a>
+          <article><a href="#"><img class="btmspace-15" src="../images/জাতীয় মনোগ্রাম.PNG" style="height:200px; weight:200px;padding:15px;" alt=""></a>
 
           </article>
         </div>

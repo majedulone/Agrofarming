@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="">
 <head>
 <title>Agrofarming || Photo Gallery</title>
@@ -23,7 +22,7 @@
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.php">Home</a></li>
           <li><a class="drop" href="#">Services</a>
             <ul>
               <li><a class="drop" href="#">Form</a>
@@ -56,13 +55,13 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div class="wrapper row3" style="background-color: #04070d;">
   <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content">
       <!-- ################################################################################################ -->
-      <div id="gallery">
+      <div id="gallery" >
         <figure>
           <header class="heading">Gallery Title Goes Here</header>
           <ul class="nospace clear">
@@ -114,34 +113,22 @@
   <footer id="footer" class="hoc clear">
     <!-- ################################################################################################ -->
     <div class="one_third first">
-      <h6 class="heading">Basend</h6>
-      <p>Nullam quis ligula elementum lectus varius aliquet vivamus odio donec metus libero semper quis suscipit ut aliquam a metus integer.</p>
-      <p class="btmspace-50">Pretium curabitur magna odio laoreet eu accumsan vitae gravida quis odio.</p>
-      <nav>
-        <ul class="nospace">
-          <li><a href="../index.html"><i class="fa fa-lg fa-home"></i></a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Cookies</a></li>
-          <li><a href="#">Disclaimer</a></li>
-          <li><a href="#">Online Shop</a></li>
-          <li><a href="#">Sitemap</a></li>
-        </ul>
-      </nav>
+      <h6 class="heading">AGROFARMING</h6>
+      <p>A plurality of Bangladeshis earn their living from agriculture. Although rice and jute are the primary crops, wheat is assuming greater importance. Tea is grown in the northeast. Because of Bangladesh's fertile soil and normally ample water supply, rice can be grown and harvested three times a year in many areas.</p>
+      <p class="btmspace-50">Due to a number of factors, Bangladesh's labour-intensive agriculture has achieved steady increases in food grain production despite the often unfavourable weather conditions.</p>
+
     </div>
     <div class="one_third">
-      <h6 class="heading">Aliquam non fermentum</h6>
+      <h6 class="heading">Contacts</h6>
       <ul class="nospace btmspace-30 linklist contact">
         <li><i class="fa fa-map-marker"></i>
           <address>
-          Street Name &amp; Number, Town, Postcode/Zip
+            Bus Stand &amp; Kaunia, Rangpur, Postcode/Zip: 5440
           </address>
         </li>
         <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
         <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
+        <li><i class="fa fa-envelope-o"></i> uaokaunia@yahoo.com</li>
       </ul>
       <ul class="faico clear">
         <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -153,11 +140,9 @@
       </ul>
     </div>
     <div class="one_third">
-      <h6 class="heading">Sapien lobortis nec</h6>
-      <article><a href="#"><img class="btmspace-15" src="../images/demo/320x140.png" alt=""></a>
-        <h6 class="nospace font-x1"><a href="#">Velit pellentesque</a></h6>
-        <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-        <p class="nospace">Eget nisl mauris placerat mauris a semper posuere sem arcu cursus felis non cursus enim odio in maecenas ut justo [&hellip;]</p>
+      <h6 class="heading">Government of the People's Republic of Bangladesh</h6>
+      <article><a href="#"><img class="btmspace-15" src="../images/জাতীয় মনোগ্রাম.PNG" style="height:200px; weight:200px;padding:15px;" alt=""></a>
+
       </article>
     </div>
     <!-- ################################################################################################ -->

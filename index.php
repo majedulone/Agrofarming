@@ -19,20 +19,20 @@
     <div class="wrapper row1">
       <header id="header" class="hoc clear">
 
-        <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
-            <div class="container d-flex">
-              <div class="contact-info mr-auto">
-                <i class="icofont-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
-                <i class="icofont-phone">+</i>
-                <i class="icofont-google-map"></i> Dhaka,bangladesh
-              </div>
-              <div class="social-links">
-                <div id="google_translate_element"></div>
-              </div>
-
-
+        <div>
+          <div>
+            <div>
+              <ul><a class="faicon-linkedin" href="#"><i class="fa fa-phone"></i></a>
+                <i class="icofont-phone">Hotline : +8809284784334</i>
+                <ul style="float: right"><a href="pages/registration.php">Sign Up</a></ul>
+                <ul style="float: right"><a href="pages/Join.php">Join</a></ul>
+              </ul>  
+            </div>
+            <div class="social-links">
+              <div id="google_translate_element"></div>
             </div>
           </div>
+        </div>
 
 
         <!-- ################################################################################################ -->
@@ -40,9 +40,9 @@
           <a href="index.html"><img src="images/logo.png" alt="Logo" style=" width:60px; height:50px;"></a>
           <p>Agrofarming<p>
           </div>
-          <nav id="mainav" class="fl_right">
+          <nav id="mainav" class="fl_right" style="float: right">
             <div class="navigation">
-              <ul class="clear">
+              <ul >
                 <li><a href="index.php">Home</a></li>
                 <li><a class="drop" href="#">Gallery</a>
                   <ul>
@@ -61,7 +61,7 @@
                     </ul>
                   </li>
                   <li><a href="#">Training</a></li>
-                  <li><a href="#">About District</a></li>
+
                   <li><a href="pages/Buy Machineries.php">Application For Buy Machineries</a></li>
                 </ul>
               </li>
@@ -73,8 +73,7 @@
               </li>
 
               <li><a href="pages/Complain.php">Complaints</a></li>
-              <li><a href="pages/Join.php">Join</a></li>
-              <li><a href="pages/registration.php">Sign Up</a></li>
+              <li><a href="#">About District</a></li>
             </ul>
           </div>
         </nav>
