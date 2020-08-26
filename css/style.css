@@ -86,3 +86,6 @@ a{
  text-decoration: none;
  color: #fff;
 }
+.error{
+  color: red;
+}

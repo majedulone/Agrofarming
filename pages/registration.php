@@ -1,3 +1,77 @@
+<?php
+$nameErr= $msg = $passwordErr = $employeeidErr = "";
+$name = $employee_ID = $password= "";
+
+if (isset($_POST["submit"])) {
+  $is_valid = 1;
+  if (empty($_POST["name"])) {
+    $nameErr = "Name is required";
+  } else {
+    $name = test_input($_POST["name"]);
+    // check if name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+      $nameErr = "Only alphabates and white space allowed";
+      $is_valid = 0;
+    }
+
+  }
+  if(!empty($_POST["password"])) {
+    $password = test_input($_POST["password"]);
+    if(!preg_match("#[0-9]+#",$password)) {
+      $passwordErr = "Your Password Must Contain At Least 1 Number!";
+    }
+    elseif(!preg_match("#[a-z]+#",$password)) {
+      $passwordErr = "Your Password Must Contain At Least 1 alphabate!";
+      $is_valid = 0;
+    }
+
+  }
+
+  if (empty($_POST["employee_ID"])) {
+    $employeeidErr = "Employee ID is required";
+  } else {
+    $employee_ID = test_input($_POST["employee_ID"]);
+    // check if e-mail address is well-formed
+    if (!preg_match("/^([0-9]+)$/",$employee_ID)) {
+      $employeeidErr = "Only number are allowed";
+      $is_valid = 0;
+
+    }
+  }
+
+  if ($is_valid==1) {
+    $conn=mysqli_connect("localhost","root","") or die (mysql_error());
+    mysqli_select_db($conn,"registration");
+    $name=$_POST['name'];
+    $employee_ID=$_POST['employee_ID'];
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    $s = "select * from emp_info where email='$email'";
+    $result = mysqli_query($conn,$s);
+    $num = mysqli_num_rows($result);
+    if($num == 1){
+      $msg="Email Already taken";
+    }
+    else
+    {
+      $reg = "insert into emp_info(name,employee_ID,email,password) values ('$name','$employee_ID','$email','$password')";
+      mysqli_query($conn,$reg);
+      header('location:Join.php');
+    }
+  }
+
+
+}
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="">
 <head>
@@ -64,24 +138,34 @@
       <main class="hoc container clear">
         <!-- main body -->
         <!-- ################################################################################################ -->
-        <form action="includes/Reg.php" method="post">
+        <form action="" method="post">
           <div class="container">
             <h1>Register</h1>
             <p>Please fill in this form to create an account.</p>
             <hr>
             <label for="name"><b>Name</b></label>
             <input type="text" placeholder="Enter your name" name="name"required>
-
+            <div class="error">
+              <?php echo $nameErr;?>
+            </div>
             <label for="employee_ID"><b>Employee ID</b></label>
             <input type="text" placeholder="Enter Employee ID" name="employee_ID"required>
-
+            <div class="error">
+              <?php echo $employeeidErr;?>
+            </div>
             <label for="email"><b>Email</b></label>
             <input type="email" placeholder="Enter Email" name="email" required>
+            <div class="error">
+              <?php echo $msg;?>
+            </div>
 
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="password" required>
+            <div class="error">
+              <?php echo $passwordErr;?>
+            </div>
             <hr>
-            <button type="submit" class="btn btn-primary" style="border-radius: 15px;">Sign Up</button>
+            <button type="submit" name="submit" class="btn btn-primary" style="border-radius: 15px;">Sign Up</button>
           </div>
           <p class="a">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
           <div class="container signin">
